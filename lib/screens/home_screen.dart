@@ -50,8 +50,8 @@ class _HomeScreenState extends State<HomeScreen>
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 gradient: RadialGradient(colors: [
-                  AppTheme.accent.withOpacity(0.12),
-                  Colors.transparent,
+                  const Color.fromARGB(255, 60, 4, 244).withOpacity(0.12),
+                  const Color.fromARGB(0, 82, 61, 129),
                 ]),
               ),
             ),
@@ -74,7 +74,7 @@ class _HomeScreenState extends State<HomeScreen>
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  "Good morning 👋",
+                                  "Good morning ",
                                   style: GoogleFonts.inter(
                                     fontSize: 13,
                                     color: AppTheme.textMuted,

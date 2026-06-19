@@ -165,11 +165,11 @@ class _FeaturedBanner extends StatelessWidget {
         ),
         borderRadius: BorderRadius.circular(18),
         border: Border.all(
-          color: AppTheme.accent.withOpacity(0.35),
+          color: const Color.fromARGB(255, 99, 226, 255).withOpacity(0.35),
         ),
         boxShadow: [
           BoxShadow(
-            color: AppTheme.accent.withOpacity(0.12),
+            color: const Color.fromARGB(255, 99, 255, 237).withOpacity(0.12),
             blurRadius: 24,
             offset: const Offset(0, 6),
           ),

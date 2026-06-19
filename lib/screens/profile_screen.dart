@@ -282,7 +282,7 @@ class _AboutTab extends StatelessWidget {
 // ─── Skills Tab ───────────────────────────────────────────────────────────────
 class _SkillsTab extends StatelessWidget {
   static const _categoryColors = {
-    SkillCategory.mobile: AppTheme.accent,
+    SkillCategory.mobile: Color.fromARGB(255, 8, 3, 105),
     SkillCategory.frontend: AppTheme.accentWarm,
     SkillCategory.backend: AppTheme.accentGreen,
     SkillCategory.design: Color(0xFFE2A84B),

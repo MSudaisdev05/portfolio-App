@@ -50,11 +50,11 @@ class ContactScreen extends StatelessWidget {
                   ),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(
-                    color: AppTheme.accent.withOpacity(0.3),
+                    color: AppTheme.accent.withValues(alpha: 0.3),
                   ),
                   boxShadow: [
                     BoxShadow(
-                      color: AppTheme.accent.withOpacity(0.10),
+                      color: AppTheme.accent.withValues(alpha: 0.10),
                       blurRadius: 20,
                       offset: const Offset(0, 6),
                     ),
@@ -126,7 +126,7 @@ class ContactScreen extends StatelessWidget {
               const SizedBox(height: 12),
 
               // Location
-              _ContactTile(
+              const _ContactTile(
                 icon: Icons.location_on_outlined,
                 label: "Location",
                 value: PortfolioData.location,

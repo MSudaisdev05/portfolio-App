@@ -80,8 +80,8 @@ class AppTheme {
     brightness: Brightness.dark,
     scaffoldBackgroundColor: background,
     colorScheme: const ColorScheme.dark(
-      primary: accent,
-      secondary: accentWarm,
+      primary: Color.fromARGB(255, 49, 246, 151),
+      secondary: Color.fromARGB(255, 56, 2, 13),
       surface: surface,
       onPrimary: Colors.white,
       onSecondary: Colors.white,
@@ -99,7 +99,7 @@ class AppTheme {
     ),
     bottomNavigationBarTheme: const BottomNavigationBarThemeData(
       backgroundColor: surface,
-      selectedItemColor: accent,
+      selectedItemColor: Color.fromARGB(255, 3, 243, 139),
       unselectedItemColor: textMuted,
       showSelectedLabels: true,
       showUnselectedLabels: true,
@@ -107,7 +107,7 @@ class AppTheme {
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
-        backgroundColor: accent,
+        backgroundColor: const Color.fromARGB(255, 2, 249, 117),
         foregroundColor: Colors.white,
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -123,7 +123,7 @@ class AppTheme {
       ),
       focusedBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(12),
-        borderSide: const BorderSide(color: accent, width: 1.5),
+        borderSide: const BorderSide(color: Color.fromARGB(255, 5, 245, 161), width: 1.5),
       ),
       hintStyle: GoogleFonts.inter(color: textMuted, fontSize: 14),
       labelStyle: GoogleFonts.inter(color: textSecondary, fontSize: 14),
